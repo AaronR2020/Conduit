@@ -1,0 +1,50 @@
+.form_Outline{
+    width: 80%;
+    margin: auto;
+    margin-top:5vh;
+    text-align: center;
+}
+.SignHEading{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+.formSign{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.input{
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+    font-size: 18px;
+}
+.Submit{
+    background-color: rgb(128, 194, 29);
+    color: white;
+    justify-self: end;
+    padding: 5px 20px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.input:focus {
+    outline: none !important;
+    border:1px solid #58eb5f;
+    box-shadow: 0 0 5px #71ce90;
+}
+.errorMessage{
+    color: red;
+    justify-self: center;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+}

@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+
+}
+.HomeBanner{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(128, 207, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.HomeBanner_h2{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.HomeBanner_p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+hr{
+    border-top: 1px solid rgba(160, 160, 160, 0.329);
+}
+.Home_active_button{
+    background-color: rgba(0, 128, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgb(128, 207, 128);;
+}
+.Home_inactive_button{
+    background-color: rgba(0, 128, 0, 0);
+    border: none;
+}
+.Home_Page_flex{
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row
+}
+.Home_GLobalFeed{
+    width: 55%;
+}
+.tags_border{
+    width: 30%;
+    position: fixed;
+    right: 0;
+    border: 1px solid gray;
+    background-color: gray;
+}
+.ArticleList{
+    margin-top: 10px;
+}

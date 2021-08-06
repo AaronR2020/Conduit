@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgba(160, 160, 160, 0.322);
+    width: 100%;
+    height: fit-content;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    align-items: center;
+}
+.nav_ul{
+    display: flex;
+    list-style: none;
+}
+.nav_li{
+    margin-right: 20px;
+    color: black;
+}
+.Link{
+    text-decoration: none;
+}
+.Heading{
+    color: green;
+    font-weight:700 ;
+    font-size: 24px;
+}
+.activeClass{
+    font-weight: 700;
+}

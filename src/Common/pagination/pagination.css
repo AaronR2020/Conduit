@@ -1,0 +1,23 @@
+.pagination_outline{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination_button{
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    margin: 0 5px;
+    width: fi;
+    height: fit-content;
+}
+.Active_button{
+    font-size: 30px;
+    background-color: hotpink;
+}
+.pagination_Prev{
+    background-color: rgba(205, 92, 92, 0);
+    border: none;
+}

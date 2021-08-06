@@ -1,0 +1,16 @@
+.Unfollow{
+    color: black;
+    background-color: rgba(255, 0, 0, 0.541);
+}
+.follow{
+    background-color: rgba(0, 128, 0, 0.384);
+    color: black;
+
+}
+.ArticleListProfile_User{
+    margin: auto;
+    width: 50%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
